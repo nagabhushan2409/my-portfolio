@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Naga Bhushan | ECE Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ── NAVBAR ─────────────────────────────────────────────── -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand mono" href="#">NB<span class="accent">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <i class="bi bi-grid-3x3-gap-fill"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── HERO ───────────────────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero-grid" id="heroGrid"></div>
+    <div class="container hero-content">
+      <div class="tag mono reveal">// ECE Engineer · VLSI Enthusiast</div>
+      <h1 class="hero-name reveal delay-1">Naga Bhushan<br/><span class="accent">Darabastu</span></h1>
+      <p class="hero-bio reveal delay-2">
+        Electronics & Communication Engineering student at Vasavi College of Engineering,
+        Hyderabad — passionate about VLSI design, embedded systems, and building efficient
+        semiconductor solutions.
+      </p>
+      <div class="hero-cta reveal delay-3">
+        <a href="#projects" class="btn-main">View Projects <i class="bi bi-arrow-right-short"></i></a>
+        <a href="#contact" class="btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-stats reveal delay-3">
+        <div class="stat"><span class="num">8.82</span><span class="label">BE CGPA</span></div>
+        <div class="divider"></div>
+        <div class="stat"><span class="num">9.91</span><span class="label">Diploma CGPA</span></div>
+        <div class="divider"></div>
+        <div class="stat"><span class="num">3+</span><span class="label">Projects</span></div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span class="mono">scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ──────────────────────────────────────────────── -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-md-4 text-center reveal">
+          <div class="avatar-wrap">
+            <div class="avatar-ring"></div>
+            <div class="avatar-inner photo">
+              <img src="MYPHOTO.jfif" alt="Naga Bhushan Darabastu" class="avatar-photo"
+                   onerror="this.onerror=null; this.src='MYPHOTO.jpg';" />
+            </div>
+            <div class="avatar-badge">
+              <i class="bi bi-cpu-fill"></i> VLSI
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 reveal delay-1">
+          <div class="section-tag mono">// 01. about_me</div>
+          <h2 class="section-title">Who Am I?</h2>
+          <p class="about-text">
+            I'm a final-year B.E. student in Electronics and Communication Engineering at
+            <strong>Vasavi College of Engineering, Hyderabad</strong>, with a strong academic
+            record (CGPA 8.82). My goal is to launch a career in <strong>VLSI design</strong>,
+            combining my knowledge of digital & analog electronics with hands-on experience in
+            embedded systems and IoT.
+          </p>
+          <p class="about-text">
+            From programming microcontrollers to implementing AES encryption over UART, I enjoy
+            bridging hardware and software to build smart, efficient systems.
+          </p>
+          <div class="about-links">
+            <a href="https://linkedin.com/in/naga-bhushan-darabastu" target="_blank" class="link-chip">
+              <i class="bi bi-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/nagabhushan2409" target="_blank" class="link-chip">
+              <i class="bi bi-github"></i> GitHub
+            </a>
+            <a href="mailto:nagabhushan2409@gmail.com" class="link-chip">
+              <i class="bi bi-envelope-fill"></i> Email
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ─────────────────────────────────────────────── -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-tag mono reveal">// 02. skills</div>
+      <h2 class="section-title reveal">Technical Skills</h2>
+      <div class="row g-3 mt-2">
+        <!-- Skill cards -->
+        <div class="col-6 col-md-4 col-lg-3 reveal"><div class="skill-card"><i class="bi bi-cpu"></i><span>Digital Electronics</span></div></div>
+        <div class="col-6 col-md-4 col-lg-3 reveal delay-1"><div class="skill-card"><i class="bi bi-activity"></i><span>Analog Electronics</span></div></div>
+        <div class="col-6 col-md-4 col-lg-3 reveal delay-2"><div class="skill-card"><i class="bi bi-diagram-3"></i><span>VLSI Design</span></div></div>
+        <div class="col-6 col-md-4 col-lg-3 reveal delay-3"><div class="skill-card"><i class="bi bi-code-slash"></i><span>Verilog HDL</span></div></div>
+        <div class="col-6 col-md-4 col-lg-3 reveal"><div class="skill-card"><i class="bi bi-motherboard"></i><span>Embedded Systems</span></div></div>
+        <div class="col-6 col-md-4 col-lg-3 reveal delay-1"><div class="skill-card"><i class="bi bi-microchip"></i><span>Microcontrollers</span></div></div>
+        <div class="col-6 col-md-4 col-lg-3 reveal delay-2"><div class="skill-card"><i class="bi bi-grid-1x2"></i><span>FPGA Basics</span></div></div>
+        <div class="col-6 col-md-4 col-lg-3 reveal delay-3"><div class="skill-card"><i class="bi bi-bezier2"></i><span>Circuit Design</span></div></div>
+        <div class="col-6 col-md-4 col-lg-3 reveal"><div class="skill-card"><i class="bi bi-bar-chart-steps"></i><span>MATLAB</span></div></div>
+        <div class="col-6 col-md-4 col-lg-3 reveal delay-1"><div class="skill-card"><i class="bi bi-filetype-c"></i><span>C Programming</span></div></div>
+        <div class="col-6 col-md-4 col-lg-3 reveal delay-2"><div class="skill-card"><i class="bi bi-filetype-py"></i><span>Python</span></div></div>
+        <div class="col-6 col-md-4 col-lg-3 reveal delay-3"><div class="skill-card"><i class="bi bi-wifi"></i><span>IoT Systems</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ───────────────────────────────────────────── -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-tag mono reveal">// 03. projects</div>
+      <h2 class="section-title reveal">Featured Projects</h2>
+      <div class="row g-4 mt-1">
+
+        <div class="col-md-4 reveal">
+          <div class="project-card">
+            <div class="project-num mono">01</div>
+            <div class="project-icon"><i class="bi bi-display"></i></div>
+            <h3 class="project-title">IoT LED Notice Board</h3>
+            <p class="project-desc">Wireless LED notice board using NodeMCU (ESP8266) for real-time message display with remote updates over Wi-Fi.</p>
+            <div class="project-tags">
+              <span>NodeMCU</span><span>ESP8266</span><span>IoT</span><span>Wi-Fi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 reveal delay-1">
+          <div class="project-card featured">
+            <div class="project-num mono">02</div>
+            <div class="project-icon"><i class="bi bi-heart-pulse-fill"></i></div>
+            <h3 class="project-title">Smart Cradle Monitor</h3>
+            <p class="project-desc">IoT-based cradle monitoring baby cry, temperature & wetness. Automated cradle motion and fan control with real-time Blynk app alerts.</p>
+            <div class="project-tags">
+              <span>IoT</span><span>Blynk</span><span>Sensors</span><span>Automation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 reveal delay-2">
+          <div class="project-card">
+            <div class="project-num mono">03</div>
+            <div class="project-icon"><i class="bi bi-shield-lock-fill"></i></div>
+            <h3 class="project-title">Secure AES–UART Comm</h3>
+            <p class="project-desc">AES encryption for secure data transmission using UART protocol — ensuring reliable and confidential microcontroller-to-microcontroller communication.</p>
+            <div class="project-tags">
+              <span>AES</span><span>UART</span><span>Security</span><span>Embedded</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ─────────────────────────────────────────── -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <div class="section-tag mono reveal">// 04. experience</div>
+      <h2 class="section-title reveal">Experience</h2>
+      <div class="timeline reveal delay-1">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">Industrial Trainee</h3>
+                <p class="tl-company">IndusTech Industrial Training Institute</p>
+              </div>
+              <span class="tl-date mono">Dec 2023 – May 2024</span>
+            </div>
+            <ul class="tl-points">
+              <li>Gained practical exposure to electronic circuit design and testing using industry-standard components and tools.</li>
+              <li>Applied core ECE concepts in hands-on sessions involving microcontrollers and embedded systems.</li>
+              <li>Built real-time hardware projects with Arduino and basic sensor interfacing.</li>
+              <li>Developed strong skills in circuit analysis, soldering, and troubleshooting.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EDUCATION ──────────────────────────────────────────── -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-tag mono reveal">// 05. education</div>
+      <h2 class="section-title reveal">Education</h2>
+      <div class="row g-4 mt-1">
+        <div class="col-md-6 reveal">
+          <div class="edu-card">
+            <div class="edu-year mono">2024 – 2027</div>
+            <h3 class="edu-degree">B.E. — Electronics & Communication Engineering</h3>
+            <p class="edu-college">Vasavi College of Engineering, Hyderabad</p>
+            <div class="edu-cgpa">
+              <span class="cgpa-label">CGPA</span>
+              <span class="cgpa-val accent">8.82</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 reveal delay-1">
+          <div class="edu-card">
+            <div class="edu-year mono">2021 – 2024</div>
+            <h3 class="edu-degree">Diploma — Electronics & Communication Engineering</h3>
+            <p class="edu-college">Government Polytechnic College, Nizamabad</p>
+            <div class="edu-cgpa">
+              <span class="cgpa-label">CGPA</span>
+              <span class="cgpa-val accent">9.91</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ────────────────────────────────────────────── -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-tag mono reveal">// 06. contact</div>
+      <h2 class="section-title reveal">Get In Touch</h2>
+      <p class="contact-sub reveal delay-1">Open to VLSI internships, ECE opportunities, and project collaborations.</p>
+      <div class="row g-4 mt-1 justify-content-center">
+        <div class="col-md-8 reveal delay-1">
+          <!-- Contact Form with JS Validation -->
+          <form id="contactForm" novalidate>
+            <div class="mb-3">
+              <input type="text" class="form-input" id="fName" placeholder="Your Name" required/>
+              <div class="err-msg" id="errName"></div>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-input" id="fEmail" placeholder="Your Email" required/>
+              <div class="err-msg" id="errEmail"></div>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-input" id="fMsg" rows="4" placeholder="Your Message" required></textarea>
+              <div class="err-msg" id="errMsg"></div>
+            </div>
+            <button type="submit" class="btn-main w-100" id="sendBtn">
+              Send Message <i class="bi bi-send-fill"></i>
+            </button>
+            <div id="formSuccess" class="success-msg"></div>
+          </form>
+        </div>
+        <div class="col-md-4 reveal delay-2">
+          <div class="contact-info">
+            <a href="tel:+918897336780" class="contact-item">
+              <i class="bi bi-telephone-fill"></i>
+              <span>+91 88973 36780</span>
+            </a>
+            <a href="mailto:nagabhushan2409@gmail.com" class="contact-item">
+              <i class="bi bi-envelope-fill"></i>
+              <span>nagabhushan2409@gmail.com</span>
+            </a>
+            <a href="https://linkedin.com/in/naga-bhushan-darabastu" target="_blank" class="contact-item">
+              <i class="bi bi-linkedin"></i>
+              <span>LinkedIn Profile</span>
+            </a>
+            <a href="https://github.com/nagabhushan2409" target="_blank" class="contact-item">
+              <i class="bi bi-github"></i>
+              <span>GitHub Profile</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────── -->
+  <footer>
+    <div class="container text-center">
+      <p class="mono footer-text">Darabastu Naga Bhushan &nbsp;·&nbsp; ECE @ Vasavi College &nbsp;·&nbsp; Hyderabad, India</p>
+      <p class="footer-copy">Built with HTML, CSS & JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
